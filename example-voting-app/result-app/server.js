@@ -107,7 +107,7 @@ app.get('/getconfig', function(req,res){
 
 });
 
-server.listen(port, function () {
+server.listen(port, '0.0.0.0', function () {
 
   var port = server.address().port;
   console.log('App running on port ' + port);
